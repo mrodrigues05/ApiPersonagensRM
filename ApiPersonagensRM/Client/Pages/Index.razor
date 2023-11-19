@@ -1,0 +1,72 @@
+﻿@page "/"
+@using ApiPersonagensRM.Shared.Models;
+@using Newtonsoft.Json;
+@inject HttpClient client
+
+<PageTitle>Index</PageTitle>
+
+<h1>Ricky and Morty Personagens</h1>
+
+@if (characters is null)
+{
+    <p>Empty</p>
+}
+else if (characters.results.Count == 0)
+{
+    <p>Não tem dados</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var charater in characters.results)
+        {
+            <div class="col mt-3">
+                <div class="card">
+                    <img src="@charater.image" class="card-img-top" alt="Noimage">
+
+                    <div class="card-body">
+                        <p class="card-text"><strong>@charater.name</strong></p>
+                        <p class="card-text">@charater.origin.name</p>
+                        <p class="card-text">@charater.location.name</p>
+                        <p class="card-text">@charater.species</p>
+                        <p class="card-text">@charater.type</p>
+
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+}
+
+@code {
+
+    public Characters characters { get; set; }
+
+    protected override Task OnInitializedAsync()
+    {
+        GetCharacters();
+        return base.OnInitializedAsync();
+    }
+
+    private async void GetCharacters()
+    {
+        try
+        {
+            var response = await client.GetAsync("api/characters/all");
+
+            if (response.IsSuccessStatusCode)
+            {
+                string responseBody = await response.Content.ReadAsStringAsync();
+
+                characters = JsonConvert.DeserializeObject<Characters>(responseBody);
+
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

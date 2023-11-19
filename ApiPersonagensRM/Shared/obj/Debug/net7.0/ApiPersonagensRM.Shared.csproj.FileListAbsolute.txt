@@ -1,0 +1,11 @@
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\bin\Debug\net7.0\ApiPersonagensRM.Shared.deps.json
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\bin\Debug\net7.0\ApiPersonagensRM.Shared.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\bin\Debug\net7.0\ApiPersonagensRM.Shared.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ApiPersonagensRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ApiPersonagensRM.Shared.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ApiPersonagensRM.Shared.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ApiPersonagensRM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ApiPersonagensRM.Shared.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\refint\ApiPersonagensRM.Shared.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ApiPersonagensRM.Shared.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\ApiPersonagensRM\ApiPersonagensRM\Shared\obj\Debug\net7.0\ref\ApiPersonagensRM.Shared.dll
